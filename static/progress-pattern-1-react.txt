@@ -1,3 +1,0 @@
-{(inProgress && !isComplete && !error) && (<div>Doing something...</div>)}
-{(!inProgress && isComplete && !error) && (<div>Completed Successfully</div>)}
-{(!inProgress && isComplete && error) && (<div>Failed with error: { error }</div>)}
